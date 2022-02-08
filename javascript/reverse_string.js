@@ -1,6 +1,7 @@
 function reverseString(str) {
   // type your code here
   return [...str].reverse().join("")
+  // return previous string, reverse it, and then join the letters using .join 
 }
 
 if (require.main === module) {
